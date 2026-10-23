@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaRetail S.A. - Dashboard y Analítica RFM</title>
+    <!-- Enlace a los estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <h1>NovaRetail S.A. - Analítica Avanzada Latam</h1>
+        <p>Proyecto de Segmentación de Clientes y Ciclo de Vida (Perú - Criterio 3)</p>
+    </header>
+
+    <main class="container">
+        <!-- Sección 1: Contexto del Caso -->
+        <section class="card">
+            <h2>1. Resumen del Caso de Estudio</h2>
+            <p>Análisis de transacciones comerciales en Perú de la compañía multinacional NovaRetail S.A. Se aplicaron filtros de calidad (eliminación de órdenes canceladas y nulos) restringiendo la data a un año (corte al 19 de octubre de 2026).</p>
+            <div class="metrics-grid">
+                <div class="metric-box">
+                    <h3>41,072</h3>
+                    <p>Registros Válidos (1 Año)</p>
+                </div>
+                <div class="metric-box">
+                    <h3>2,688</h3>
+                    <p>Clientes Únicos (Perú)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 2: Segmentos RFM Principales -->
+        <section class="card">
+            <h2>2. Segmentos RFM Clave Identificados</h2>
+            <ul class="segment-list">
+                <li><strong>Champions (Score 444):</strong> 312 clientes más rentables y recientes (compras menores a 25 días, alta frecuencia y gasto superior a $11,555).</li>
+                <li><strong>Almost Lost (Score 244):</strong> 54 clientes con alto valor histórico pero riesgo latente de abandono.</li>
+                <li><strong>Lost Cheap Customers (Score 111):</strong> 278 compradores inactivos de bajo valor y frecuencia mínima.</li>
+            </ul>
+            <button onclick="mostrarEstrategia()">Ver Estrategia Comercial</button>
+            <p id="estrategia-texto" class="hidden-text"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Analítica Avanzada | Publicado mediante GitHub Pages</p>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

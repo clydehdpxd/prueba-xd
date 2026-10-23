@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.hero {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #93c5fd;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.metrics-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.metric-box {
+    background: #eff6ff;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    width: 45%;
+}
+
+.metric-box h3 {
+    margin: 0;
+    color: #2563eb;
+    font-size: 1.8rem;
+}
+
+.metric-box p {
+    margin: 5px 0 0 0;
+    font-size: 0.9rem;
+    color: #4b5563;
+}
+
+.segment-list {
+    text-align: left;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.hidden-text {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    font-size: 0.95rem;
+    color: #92400e;
+    text-align: left;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #6b7280;
+    font-size: 0.85rem;
+}
